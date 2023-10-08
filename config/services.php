@@ -58,4 +58,8 @@ return [
     'mandrill' => [
         'secret' => env('MANDRILL_SECRET'),
     ],
+    'mailjet' => [
+        'key' => env('MAILJET_APIKEY'),
+        'secret' => env('MAILJET_APISECRET'),
+    ]
 ];
